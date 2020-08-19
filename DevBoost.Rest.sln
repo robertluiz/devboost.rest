@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevBoost.Rest", "DevBoost.Rest\DevBoost.Rest.csproj", "{AE6E559E-454A-4EEC-B45E-59E806D89E13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevBoost.Domain", "DevBoost.Domain\DevBoost.Domain.csproj", "{264CA859-16B0-4111-9F45-45D7A012C300}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE6E559E-454A-4EEC-B45E-59E806D89E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE6E559E-454A-4EEC-B45E-59E806D89E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE6E559E-454A-4EEC-B45E-59E806D89E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE6E559E-454A-4EEC-B45E-59E806D89E13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{264CA859-16B0-4111-9F45-45D7A012C300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{264CA859-16B0-4111-9F45-45D7A012C300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{264CA859-16B0-4111-9F45-45D7A012C300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{264CA859-16B0-4111-9F45-45D7A012C300}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB263167-ED52-4273-ABA6-B8A926037831}
+	EndGlobalSection
+EndGlobal
