@@ -7,6 +7,7 @@ namespace DevBoost.Domain.Services
 {
     public class ServiceAluno : IServiceAluno
     {
+        
         public bool Create(AlunoModel alunoModel)
         {
             return true;
@@ -19,17 +20,28 @@ namespace DevBoost.Domain.Services
 
         public List<AlunoModel> Get()
         {
-            return new List<AlunoModel>{new AlunoModel
+            return new List<AlunoModel>
             {
-                Nome="Robert",
-                Email = "robert.tiweb@gmail.com",
-                Id= new Guid()
-            },new AlunoModel {
-                    Nome="Italo Farias",
-                    Email="italovinicios@gmail.com",
-                    Id= new Guid()
+                new AlunoModel
+                {
+                    Nome = "Robert",
+                    Email = "robert.tiweb@gmail.com",
+                    Id = Guid.NewGuid()
+                },
+                new AlunoModel
+                {
+                    Nome = "Italo Farias",
+                    Email = "italovinicios@gmail.com",
+                    Id = Guid.NewGuid()
+                },
+                new AlunoModel
+                {
+                    Nome = "Guilherme",
+                    Email = "guilherme_cupertino@hotmail.com",
+                    Id = Guid.NewGuid()
                 }
-            }; 
+
+            };
         }
 
         public bool Delete(int id)
